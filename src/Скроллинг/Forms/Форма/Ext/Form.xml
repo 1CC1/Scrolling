@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="Таблица1" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Таблица1</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Таблица1КонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="Таблица1КоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="Таблица1СтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Таблица1УправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateCell">Таблица1ПриАктивизацииЯчейки</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="Таблица1Номенклатура" id="86">
+					<DataPath>Таблица1.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="Таблица1НоменклатураКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="Таблица1НоменклатураРасширеннаяПодсказка" id="88"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="Таблица2" id="89">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Таблица2</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Таблица2КонтекстноеМеню" id="90"/>
+			<AutoCommandBar name="Таблица2КоманднаяПанель" id="91"/>
+			<ExtendedTooltip name="Таблица2РасширеннаяПодсказка" id="92"/>
+			<SearchStringAddition name="Таблица2СтрокаПоиска" id="93">
+				<AdditionSource>
+					<Item>Таблица2</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица2СтрокаПоискаКонтекстноеМеню" id="94"/>
+				<ExtendedTooltip name="Таблица2СтрокаПоискаРасширеннаяПодсказка" id="95"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Таблица2СостояниеПросмотра" id="96">
+				<AdditionSource>
+					<Item>Таблица2</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица2СостояниеПросмотраКонтекстноеМеню" id="97"/>
+				<ExtendedTooltip name="Таблица2СостояниеПросмотраРасширеннаяПодсказка" id="98"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Таблица2УправлениеПоиском" id="99">
+				<AdditionSource>
+					<Item>Таблица2</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица2УправлениеПоискомКонтекстноеМеню" id="100"/>
+				<ExtendedTooltip name="Таблица2УправлениеПоискомРасширеннаяПодсказка" id="101"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Таблица2Номенклатура" id="174">
+					<DataPath>Таблица2.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="Таблица2НоменклатураКонтекстноеМеню" id="175"/>
+					<ExtendedTooltip name="Таблица2НоменклатураРасширеннаяПодсказка" id="176"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="Таблица3" id="177">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Таблица3</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Таблица3КонтекстноеМеню" id="178"/>
+			<AutoCommandBar name="Таблица3КоманднаяПанель" id="179"/>
+			<ExtendedTooltip name="Таблица3РасширеннаяПодсказка" id="180"/>
+			<SearchStringAddition name="Таблица3СтрокаПоиска" id="181">
+				<AdditionSource>
+					<Item>Таблица3</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица3СтрокаПоискаКонтекстноеМеню" id="182"/>
+				<ExtendedTooltip name="Таблица3СтрокаПоискаРасширеннаяПодсказка" id="183"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Таблица3СостояниеПросмотра" id="184">
+				<AdditionSource>
+					<Item>Таблица3</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица3СостояниеПросмотраКонтекстноеМеню" id="185"/>
+				<ExtendedTooltip name="Таблица3СостояниеПросмотраРасширеннаяПодсказка" id="186"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Таблица3УправлениеПоиском" id="187">
+				<AdditionSource>
+					<Item>Таблица3</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица3УправлениеПоискомКонтекстноеМеню" id="188"/>
+				<ExtendedTooltip name="Таблица3УправлениеПоискомРасширеннаяПодсказка" id="189"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Таблица3Номенклатура" id="262">
+					<DataPath>Таблица3.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="Таблица3НоменклатураКонтекстноеМеню" id="263"/>
+					<ExtendedTooltip name="Таблица3НоменклатураРасширеннаяПодсказка" id="264"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Скроллинг</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Таблица1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Таблица2" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Таблица3" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КоличествоПериодов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество периодов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НачалоПериода" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало периода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерТекущейВыделеннойКолонки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер текущей выделенной колонки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
